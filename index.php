@@ -1,14 +1,20 @@
 <?php include 'config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Поиск записей по комментарию</title>
-        <!-- Подключение Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск записей по комментарию</title>
+    <!-- Подключение Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        /* Добавление стиля для изменения фона */
+        body {
+            background-color: #808080; /* Серый цвет фона */
+        }
+    </style>
+</head>
+   <body>
         <div class="container">
             <h1 class="mt-5">Поиск записей по комментарию</h1>
             <form action="search.php" method="GET" class="mt-3">
